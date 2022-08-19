@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/src/assets/js
+/src/views
+/package-lock.json
+.DS_Store
+/config
+/.eslintrc.js
+/scripts
+/public
