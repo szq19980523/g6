@@ -1,9 +1,11 @@
-import G6 from '@antv/g6';
+import G6, { Graph } from '@antv/g6';
 import React, { useEffect, useState } from 'react';
 const Demo = () => {
   // const ref = React.useRef(null);
   const [count, setCount] = useState(0)
-  let graph = null;
+  let graph: Graph | null = null;
+  console.log(1);
+
   const data = {
     // 点集
     nodes: [
